@@ -9,4 +9,5 @@ export default defineNuxtConfig({
       inline: ['node-fetch'],
     },
   },
+  ssr: true,
 });

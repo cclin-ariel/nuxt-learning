@@ -1,11 +1,10 @@
 <script setup>
-import { useFetch } from "nuxt/app";
-
-const { data } = await useFetch("https://api.example.com/data");
+import BlogPost from "./blog.vue";
 </script>
 
 <template>
   <h1>Hello world!</h1>
+  <BlogPost />
 </template>
 
 <style scoped></style>
