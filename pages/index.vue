@@ -7,3 +7,5 @@ const { data } = await useFetch("https://api.example.com/data");
 <template>
   <h1>Hello world!</h1>
 </template>
+
+<style scoped></style>
